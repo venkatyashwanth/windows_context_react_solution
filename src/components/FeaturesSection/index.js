@@ -7,7 +7,7 @@ const FeaturesSection = props => {
   const {activeLanguage} = props
   return (
     <div className="features-section-container">
-      <Playtime activeLanguage={activeLanguage} />
+      <Playtime />
       <NewWaysToConnect activeLanguage={activeLanguage} />
     </div>
   )
